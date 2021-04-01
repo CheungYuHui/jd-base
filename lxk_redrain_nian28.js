@@ -1,16 +1,16 @@
 /*
-店铺签到，各类店铺签到，有新的店铺直接添加token即可
+整点京豆雨
 ============Quantumultx===============
 [task_local]
-#店铺签到
-1 8-23 * * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js, tag=红包雨, enabled=true
+#整点京豆雨
+1 8-23 * * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js, tag=整点京豆雨, enabled=true
 ===========Loon============
 [Script]
-cron "1 8-23 * * *" script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js,tag=红包雨
+cron "1 8-23 * * *" script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js,tag=整点京豆雨
 ============Surge=============
-红包雨 = type=cron,cronexp="1 8-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js
+整点京豆雨 = type=cron,cronexp="1 8-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js
 ===========小火箭========
-红包雨 = type=cron,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.jss, cronexpr="1 8-23 * * *", timeout=3600, enable=true
+整点京豆雨 = type=cron,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.jss, cronexpr="1 8-23 * * *", timeout=3600, enable=true
 */
 
 const $ = new Env('整点京豆雨');
