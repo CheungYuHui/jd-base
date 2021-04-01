@@ -1,9 +1,4 @@
 /*
-只能用一天。需每天寻找直播抓包
-1 8-23 * * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js, tag=红包雨,  enabled=true
-*/
-
-/*
 店铺签到，各类店铺签到，有新的店铺直接添加token即可
 ============Quantumultx===============
 [task_local]
