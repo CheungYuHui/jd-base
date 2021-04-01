@@ -1,6 +1,6 @@
 /*
 只能用一天。需每天寻找直播抓包
-1 8-23 * * * lxk0301_live_redrain.js
+1 8-23 * * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/lxk_redrain_nian28.js, tag=redrain红包雨,  enabled=true
 */
 const $ = new Env('整点京豆雨');
 let allMessage = '';
