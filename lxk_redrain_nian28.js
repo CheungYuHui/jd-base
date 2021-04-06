@@ -29,15 +29,15 @@ let ids = {
   '12': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
   '13': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
   '14': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '15': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '16': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '17': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '18': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '19': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '20': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '21': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '22': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE',
-  '23': 'RRA2u4bEZ2zLYr9PKfwqfXngbVCmqNE'
+  '15': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '16': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '17': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '18': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '19': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '20': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '21': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '22': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '23': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
