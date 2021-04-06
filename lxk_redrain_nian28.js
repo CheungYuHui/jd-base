@@ -36,7 +36,7 @@ let ids = {
   '19': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
   '20': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
   '21': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
-  '22': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC',
+  '22': 'RRA3gsDuBBP5kYqknjTZ2h3VLkEpiT3',
   '23': 'RRAKoqJYHaBPhFyuYdunFqtjeVBLDC'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
