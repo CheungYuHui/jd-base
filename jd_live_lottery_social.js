@@ -3,14 +3,14 @@
 ============Quantumultx===============
 [task_local]
 #直播间抽奖（全局）
-1 8-23 * * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.js, tag=直播间抽奖（全局）, enabled=true
+48 13 */4 * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.js, tag=直播间抽奖（全局）, enabled=true
 ===========Loon============
 [Script]
-cron "1 8-23 * * *" script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.js,tag=直播间抽奖（全局）
+cron "48 13 */4 * *" script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.js,tag=直播间抽奖（全局）
 ============Surge=============
-直播间抽奖（全局） = type=cron,cronexp="1 8-23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.js
+直播间抽奖（全局） = type=cron,cronexp="48 13 */4 * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.js
 ===========小火箭========
-直播间抽奖（全局） = type=cron,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.jss, cronexpr="1 8-23 * * *", timeout=3600, enable=true
+直播间抽奖（全局） = type=cron,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/jd_live_lottery_social.jss, cronexpr="48 13 */4 * *", timeout=3600, enable=true
 */
 
 const $ = new Env('直播间抽奖（全局）');
