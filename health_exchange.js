@@ -1,6 +1,17 @@
-/**
- * 京东健康社区兑换。
- */
+/*
+健康兑换
+============Quantumultx===============
+[task_local]
+#健康兑换
+0 0 * * * https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/health_exchange.js, tag=健康兑换, enabled=true
+===========Loon============
+[Script]
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/health_exchange.js,tag=健康兑换
+============Surge=============
+健康兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/health_exchange.js
+===========小火箭========
+健康兑换 = type=cron,script-path=https://raw.githubusercontent.com/CheungYuHui/jd-base/v3/health_exchange.jss, cronexpr="0 0 * * *", timeout=3600, enable=true
+*/
 
 const $ = new Env('健康社区兑换');
 
