@@ -4,9 +4,9 @@
 支持京东N个账号
  */
 // 每个账号 token 是一个 json，示例如下
-// {"farm_jstoken":"749a90f871adsfads8ffda7bf3b1576760","timestamp":"1610165423873","phoneid":"42c7e3dadfadsfdsaac-18f0e4f4a0cf"}
+// {"farm_jstoken":"36d07ae0358c11d6b563ae1f6213b330","timestamp":"1610165423873","phoneid":"42c7e3dadfadsfdsaac-18f0e4f4a0cf"}
 let JxncTokens = [
-  '',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '{"farm_jstoken":"36d07ae0358c11d6b563ae1f6213b330","timestamp":"1624643484744","phoneid":"c9e73e43e04fd82c"}',//账号一的好友shareCode,不同好友中间用@符号隔开
   '',//账号二的好友shareCode，不同好友中间用@符号隔开
 ]
 // 判断github action里面是否有京喜农场 token 
