@@ -1,0 +1,7 @@
+  
+#多账号换行，以下示例：（通过正则获取此文件的ck，理论上可以自定义名字标记ck，也可以随意摆放ck）
+账号1【huigedageda】pt_key=AAJg2wiXADBAsYQskp_cmk8uCvUSVDHzbIyb9zDPsqcxiKYc6bh9IWPNL2ScQg-81Q3IE6IAT8Y;pt_pin=huigedageda;
+账号2【jd_6729659c0271f】pt_key=AAJg2wh_ADDUpcWFvdOBDQLaSeqeP_7agQYGWT_-WYnqDUvld2SMpp0mU1KumpsAeNESnE8SLFY;pt_pin=jd_6729659c0271f;
+账号3【jd_bJZxvcOqdPNf】pt_key=AAJg2wiwADCurBMpSfdvAbv5wy6NniARRgLPd4t-oriSFmvpudQ7qJcTcf4jPWH-_u5of9UGtgs;pt_pin=jd_bJZxvcOqdPNf;
+账号4【zzzx0621】pt_key=AAJgxFiAADCR4eaHo-ejggQ2b2JlPmZS2LG27bWKzsVhbaVvpZzTaa8y3mBNH_im4CkkIUPQNZA;pt_pin=zzzx0621;
+账号5【a2522582】pt_key=AAJg5FwWADCza9J5xBKztg5xZrzb8lRYG2cp4-yJqINoLc0JDHGZezrHPLN5jgPmZ0_3gvtYo5w;pt_pin=a2522582;
